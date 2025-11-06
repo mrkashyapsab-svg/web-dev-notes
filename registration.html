@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name ">
+            <label for="email"> EMAIL</label>
+            <input type="text" id="email" name="email" placeholder="ENTER your Email">
+            <label for="password">PASSWORD</label>
+            <input type="text" id="password" name="password" placeholder="ENTER YOUR PASSWORD ">
+        </div>
+        <div>
+            <label for="male">MALE</label>
+            <input type="radio" id="male" name="gender" value="choose">
+            <label for="female">FEMALE</label>
+            <input type="radio" id="female" name="gender" value="choose">
+        </div>
+        <div>
+            <caption><b>courses available</b></caption><br>
+            <label for="web developer">wev developer</label>
+            <input type="checkbox" id="web developer" name="one"value="learn">
+            <label for="digital market">digital market</label>
+            <input type="checkbox" id="digital market" name="one"value="learn">
+            <label for="UI/UX">UI/UX</label>
+            <input type="checkbox" id="UI/UX" name="one" value="learn">
+        </div>
+        <div>
+            <label for="city">city</label>
+            <select id="city " name="city">
+                <option value="amritsar">AMRITSAR</option>
+                <option value="ludhiana">ludhiana</option>
+                <option value="chandigard">chandigard</option>
+            </select>
+        </div>
+        <div>
+            <label for="submit"></label>
+            <input type="button" id="submit" name="submit" value="submit">
+            <label for="reset"></label>
+            <input type="button" id="reset" name="reset" value="reset">
+        </div>
+    </form>
+
+</body>
+
+</html>
